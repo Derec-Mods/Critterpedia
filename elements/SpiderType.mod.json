@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:BlackWidow"
+      },
+      {
+        "value": "CUSTOM:GardenSpider"
+      }
+    ],
+    "biomes": [],
+    "name": "spider_type",
+    "namespace": "forge"
+  }
+}

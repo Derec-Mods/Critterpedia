@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "critterpedia:block/spiderweb"
+    },
+    "facing=east": {
+      "model": "critterpedia:block/spiderweb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "critterpedia:block/spiderweb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "critterpedia:block/spiderweb",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "critterpedia:block/spiderweb",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "critterpedia:block/spiderweb",
+      "x": 90
+    }
+  }
+}

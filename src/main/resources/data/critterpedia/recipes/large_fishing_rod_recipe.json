@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "34 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/iron"
+    },
+    "1": {
+      "tag": "forge:string"
+    },
+    "3": {
+      "tag": "forge:ingots/iron"
+    },
+    "4": {
+      "tag": "forge:string"
+    },
+    "6": {
+      "tag": "forge:ingots/iron"
+    },
+    "8": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "critterpedia:large_fishing_rod",
+    "count": 1
+  }
+}

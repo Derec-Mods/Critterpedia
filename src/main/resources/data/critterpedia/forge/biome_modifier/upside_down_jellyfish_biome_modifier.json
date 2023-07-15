@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "critterpedia:upside_down_jellyfish",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

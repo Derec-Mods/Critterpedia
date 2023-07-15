@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:SaltwaterCrocodile"
+      },
+      {
+        "value": "CUSTOM:GalapgosTortoise"
+      },
+      {
+        "value": "CUSTOM:CommonSnappingTurtle"
+      },
+      {
+        "value": "CUSTOM:AmericanAlligator"
+      }
+    ],
+    "biomes": [],
+    "name": "reptile_type",
+    "namespace": "forge"
+  }
+}

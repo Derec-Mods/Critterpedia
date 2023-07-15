@@ -1,0 +1,185 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "reptile_amphibian_icon_clcked.png",
+          "use1Xscale": false,
+          "x": 85,
+          "y": 39
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guiblank.png",
+          "use1Xscale": false,
+          "x": 103,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_fishiconunclicked",
+          "image": "fishiconunclicked.png",
+          "hoveredImage": "fish_icon_clicked.png",
+          "onClick": {
+            "name": "OpenFishGUI"
+          },
+          "x": 85,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bird_icon_unclicked",
+          "image": "bird_icon_unclicked.png",
+          "hoveredImage": "bird_icon_clicked.png",
+          "onClick": {
+            "name": "OpenBirdGUI"
+          },
+          "x": 85,
+          "y": 81
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bug_icon_unclicked",
+          "image": "bug_icon_unclicked.png",
+          "hoveredImage": "bug_icon_clicked.png",
+          "onClick": {
+            "name": "OpenBugGUI"
+          },
+          "x": 85,
+          "y": 102
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_sea_creature_icon_unclicked",
+          "image": "sea_creature_icon_unclicked.png",
+          "hoveredImage": "sea_creature_icon_clicked.png",
+          "onClick": {
+            "name": "OpenSeaGUI"
+          },
+          "x": 85,
+          "y": 123
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_mammal_icon_unclicked",
+          "image": "mammal_icon_unclicked.png",
+          "hoveredImage": "mammal_icon_clicked.png",
+          "onClick": {
+            "name": "OpenMammalGUI"
+          },
+          "x": 85,
+          "y": 144
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_alligator_snapping_turtle",
+          "image": "alligator_snapping_turtle.png",
+          "hoveredImage": "alligator_snapping_turtle.png",
+          "x": 149,
+          "y": 55
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_american_alligator",
+          "image": "american_alligator.png",
+          "hoveredImage": "american_alligator.png",
+          "x": 220,
+          "y": 140
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_salt_water_crocodile",
+          "image": "salt_water_crocodile.png",
+          "hoveredImage": "salt_water_crocodile.png",
+          "x": 175,
+          "y": 140
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bearded_dragon",
+          "image": "bearded_dragon.png",
+          "hoveredImage": "bearded_dragon.png",
+          "x": 149,
+          "y": 76
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_common_snapping_turtle",
+          "image": "common_snapping_turtle.png",
+          "hoveredImage": "common_snapping_turtle.png",
+          "x": 117,
+          "y": 46
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_aldabra_tortoise",
+          "image": "aldabra_tortoise.png",
+          "hoveredImage": "aldabra_tortoise.png",
+          "x": 178,
+          "y": 65
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_sulcata_tortoise",
+          "image": "sulcata_tortoise.png",
+          "hoveredImage": "sulcata_tortoise.png",
+          "x": 149,
+          "y": 91
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pixie_frog",
+          "image": "pixie_frog.png",
+          "hoveredImage": "pixie_frog.png",
+          "x": 178,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 7,
+      "ox": 6,
+      "oy": 6,
+      "snapOnGrid": true
+    }
+  }
+}

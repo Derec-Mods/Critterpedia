@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:string"
+    },
+    "1": {
+      "tag": "forge:string"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "tag": "forge:string"
+    },
+    "4": {
+      "tag": "forge:string"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "critterpedia:insect_net",
+    "count": 1
+  }
+}

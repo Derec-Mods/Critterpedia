@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "critterpedia:black_widow_item"
+    },
+    "title": {
+      "translate": "advancements.critterpedia_bug_root.title"
+    },
+    "description": {
+      "translate": "advancements.critterpedia_bug_root.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "critterpedia_bug_root": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "critterpedia:critterpedia_root"
+}

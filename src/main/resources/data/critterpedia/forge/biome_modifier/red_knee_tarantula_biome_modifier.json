@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "dark_forest",
+    "birch_forest"
+  ],
+  "spawners": {
+    "type": "critterpedia:red_knee_tarantula",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "critterpedia:displaysettings/galapgostortoiseblock.item",
+  "textures": {
+    "particle": "critterpedia:blocks/galapagos"
+  }
+}

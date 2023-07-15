@@ -1,0 +1,105 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_reptileamphibian_icon_unclicked",
+          "image": "reptile-amphibian_icon_unclicked.png",
+          "hoveredImage": "reptile_amphibian_icon_clcked.png",
+          "onClick": {
+            "name": "OpenReptileGUI"
+          },
+          "x": 85,
+          "y": 39
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_fishiconunclicked",
+          "image": "fishiconunclicked.png",
+          "hoveredImage": "fish_icon_clicked.png",
+          "onClick": {
+            "name": "OpenFishGUI"
+          },
+          "x": 85,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bug_icon_unclicked",
+          "image": "bug_icon_unclicked.png",
+          "hoveredImage": "bug_icon_clicked.png",
+          "onClick": {
+            "name": "OpenBugGUI"
+          },
+          "x": 85,
+          "y": 102
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_sea_creature_icon_unclicked",
+          "image": "sea_creature_icon_unclicked.png",
+          "hoveredImage": "sea_creature_icon_clicked.png",
+          "onClick": {
+            "name": "OpenSeaGUI"
+          },
+          "x": 85,
+          "y": 123
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_mammal_icon_unclicked",
+          "image": "mammal_icon_unclicked.png",
+          "hoveredImage": "mammal_icon_clicked.png",
+          "onClick": {
+            "name": "OpenMammalGUI"
+          },
+          "x": 85,
+          "y": 144
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bird_icon_clicked.png",
+          "use1Xscale": false,
+          "x": 85,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guiblank.png",
+          "use1Xscale": false,
+          "x": 103,
+          "y": 35
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 7,
+      "ox": 6,
+      "oy": 6,
+      "snapOnGrid": true
+    }
+  }
+}

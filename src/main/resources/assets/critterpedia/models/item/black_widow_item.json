@@ -1,0 +1,6 @@
+{
+  "parent": "critterpedia:displaysettings/black_widow_item.item",
+  "textures": {
+    "layer0": "critterpedia:items/black_widow"
+  }
+}

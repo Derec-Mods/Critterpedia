@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "critterpedia:blocks/special_web",
+    "up": "critterpedia:blocks/special_web",
+    "north": "critterpedia:blocks/special_web",
+    "east": "critterpedia:blocks/special_web",
+    "south": "critterpedia:blocks/special_web",
+    "west": "critterpedia:blocks/special_web",
+    "particle": "critterpedia:blocks/special_web"
+  },
+  "render_type": "solid"
+}

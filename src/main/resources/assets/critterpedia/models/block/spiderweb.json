@@ -1,0 +1,9 @@
+{
+  "parent": "critterpedia:custom/sheet_web_block",
+  "textures": {
+    "all": "critterpedia:blocks/spider_web",
+    "particle": "critterpedia:blocks/spider_web",
+    "2": "critterpedia:blocks/sheetwebtexture2"
+  },
+  "render_type": "cutout"
+}

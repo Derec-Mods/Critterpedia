@@ -1,0 +1,88 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.potoo_GL",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-3.5, 2, -3.5], "size": [7, 6, 7], "uv": [0, 19]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "jaw",
+					"parent": "head",
+					"pivot": [0, 8, 3.5],
+					"cubes": [
+						{"origin": [-3.5, 8, -3.5], "size": [7, 6, 7], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "beak",
+					"parent": "jaw",
+					"pivot": [0, 9, -3.5],
+					"cubes": [
+						{"origin": [-0.5, 7, -4.5], "size": [1, 3, 1], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "wingLeft",
+					"parent": "body",
+					"pivot": [-3.5, 8, 1],
+					"cubes": [
+						{"origin": [-4.5, 1, -1], "size": [1, 8, 5], "uv": [31, 19]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 2, 3],
+					"rotation": [77.5, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, -5, 2.5], "size": [3, 7, 1], "uv": [29, 10]}
+					]
+				},
+				{
+					"name": "legRight",
+					"parent": "body",
+					"pivot": [2, 2, -2.5],
+					"rotation": [5, 0, 0],
+					"cubes": [
+						{"origin": [0.5, 0, -4], "size": [3, 2, 3], "inflate": 0.01, "uv": [23, 3], "mirror": true}
+					]
+				},
+				{
+					"name": "legLeft",
+					"parent": "body",
+					"pivot": [-2, 2, -2.5],
+					"rotation": [5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 0, -4], "size": [3, 2, 3], "inflate": 0.01, "uv": [23, 3]}
+					]
+				},
+				{
+					"name": "wingRight",
+					"parent": "body",
+					"pivot": [3.5, 8, 1],
+					"cubes": [
+						{"origin": [3.5, 1, -1], "size": [1, 8, 5], "uv": [31, 19]}
+					]
+				}
+			]
+		}
+	]
+}

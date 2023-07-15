@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "jungle",
+    "river",
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "critterpedia:american_alligator",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

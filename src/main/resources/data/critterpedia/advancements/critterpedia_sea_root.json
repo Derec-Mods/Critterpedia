@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "critterpedia:psychedelic_jellyfish_bucket"
+    },
+    "title": {
+      "translate": "advancements.critterpedia_sea_root.title"
+    },
+    "description": {
+      "translate": "advancements.critterpedia_sea_root.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "critterpedia_sea_root": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "critterpedia:critterpedia_root"
+}

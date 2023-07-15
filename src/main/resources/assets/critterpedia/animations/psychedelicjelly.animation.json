@@ -1,0 +1,76 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.PsychedelicJelly.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"Bell": {
+					"position": [0, "0.1+math.sin(query.anim_time*90)*0.1", 0]
+				},
+				"Tentacle1": {
+					"rotation": ["math.sin(query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle2": {
+					"rotation": ["math.sin(-45+query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle3": {
+					"rotation": ["math.sin(-90+query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle4": {
+					"rotation": ["math.sin(-135+query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle5": {
+					"rotation": ["math.sin(-180+query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle6": {
+					"rotation": ["math.sin(-225+query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle7": {
+					"rotation": ["math.sin(-270+query.anim_time*90)*3", 0, 0]
+				},
+				"Tentacle8": {
+					"rotation": ["math.sin(-315+query.anim_time*90)*3", 0, 0]
+				}
+			}
+		},
+		"animation.PsychedelicJelly.swim": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"Bell": {
+					"rotation": ["math.sin(query.anim_time*120)+90.5", 0, 0],
+					"position": [0, "0.25+math.sin(query.anim_time*120)*-0.25", 0]
+				},
+				"Tentacle1": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle2": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle3": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle4": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle5": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle6": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle7": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"Tentacle8": {
+					"rotation": ["math.sin(36+query.anim_time*120)*5", 0, 0]
+				},
+				"BottomBell": {
+					"rotation": ["4+math.sin(-36+query.anim_time*120)*-4", 0, 0]
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:air"
+    },
+    "title": {
+      "translate": "advancements.critterpedia_mammal_root.title"
+    },
+    "description": {
+      "translate": "advancements.critterpedia_mammal_root.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "critterpedia_mammal_root": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "critterpedia:critterpedia_root"
+}

@@ -1,0 +1,72 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.galapagostortoise",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{"origin": [-8, 5, -10], "size": [16, 16, 20], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Leg1R",
+					"parent": "Body",
+					"pivot": [-7.5, 9, -9],
+					"cubes": [
+						{"origin": [-10.5, 0, -12], "size": [6, 9, 6], "uv": [48, 49]}
+					]
+				},
+				{
+					"name": "Leg1L",
+					"parent": "Body",
+					"pivot": [7.5, 9, -9],
+					"cubes": [
+						{"origin": [4.5, 0, -12], "size": [6, 9, 6], "uv": [24, 49]}
+					]
+				},
+				{
+					"name": "Leg2R",
+					"parent": "Body",
+					"pivot": [-7.5, 8, 9],
+					"cubes": [
+						{"origin": [-10, 0, 6], "size": [5, 8, 6], "uv": [52, 0]}
+					]
+				},
+				{
+					"name": "Leg2L",
+					"parent": "Body",
+					"pivot": [7.5, 8, 9],
+					"cubes": [
+						{"origin": [5, 0, 6], "size": [5, 8, 6], "uv": [0, 51]}
+					]
+				},
+				{
+					"name": "Neck",
+					"parent": "Body",
+					"pivot": [0, 9.5, 0],
+					"cubes": [
+						{"origin": [-2.5, 7, -10], "size": [5, 5, 10], "uv": [0, 36]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Neck",
+					"pivot": [0, 9.5, -10],
+					"cubes": [
+						{"origin": [-3, 6.5, -17], "size": [6, 6, 7], "uv": [30, 36]}
+					]
+				}
+			]
+		}
+	]
+}

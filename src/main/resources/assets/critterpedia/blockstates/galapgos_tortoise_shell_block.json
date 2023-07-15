@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "critterpedia:custom/galapgos_tortoise_shell_block_particle"
+    },
+    "facing=east": {
+      "model": "critterpedia:custom/galapgos_tortoise_shell_block_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "critterpedia:custom/galapgos_tortoise_shell_block_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "critterpedia:custom/galapgos_tortoise_shell_block_particle",
+      "y": 270
+    }
+  }
+}

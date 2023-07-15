@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Critterpedia",
+    "icon": {
+      "value": "Blocks.TURTLE_EGG"
+    },
+    "showSearch": true
+  }
+}
